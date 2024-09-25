@@ -1,8 +1,8 @@
-import { useNavigate } from "react-router-dom";
-import { useCard } from "./CardContext";
-import { MdAddShoppingCart } from "react-icons/md";
 import { AiFillThunderbolt } from "react-icons/ai";
+import { MdAddShoppingCart } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 import { Card2 } from "./Card2";
+import { useCard } from "./CardContext";
 
 export const CardDetails = () => {
   const { selectedCard } = useCard();
@@ -29,8 +29,8 @@ export const CardDetails = () => {
 
   return (
    <>
-    <div className="2xl:container mt-10 mb-10">
-      <div className="w-[75%] mx-auto">
+    <div className=" mb-10">
+      <div className="w-[75%] pt-16 mx-auto">
         {/* Combined Container for Image, Details, Delivery Info, and Buttons */}
         <div className="bg-white shadow-lg rounded-lg p-6 flex">
 
@@ -84,7 +84,7 @@ export const CardDetails = () => {
             </div>
 
             {/* Buttons Container */}
-            <div className="flex justify-between">
+            <div className="flex justify-between ">
 
               {/* Add to Cart Button */}
               <button

@@ -10,7 +10,7 @@ export const Footer = () => {
           <p className="font-extrabold text-gray-700 p-3 text-2xl flex">
             For better experience,
             <br />
-            download the Swiggy app now
+            download the milady app now
           </p>
           <p className="flex gap-6 w-48 h-16 items-center mt-4 ml-56 ">
             <img
@@ -36,7 +36,7 @@ export const Footer = () => {
           <div>
             <p className=" flex font-extrabold text-white items-center text-3xl mb-3">
               <SiSwiggy className="text-white flex items-center" />
-              swiggy
+              milady
             </p>
             <p className="flex text-gray-400 font-medium  items-center ">
               <TbCopyrightFilled className="text-gray-400 items-center" />
@@ -49,9 +49,9 @@ export const Footer = () => {
             <p className="mb-2 text-gray-400 ">About</p>
             <p className="mb-2 text-gray-400">Careers</p>
             <p className="mb-2 text-gray-400">Team</p>
-            <p className="mb-2 text-gray-400">Swiggy One</p>
-            <p className="mb-2 text-gray-400">Swiggy Instamart</p>
-            <p className="mb-2 text-gray-400">Swiggy Genie</p>
+            <p className="mb-2 text-gray-400">milady One</p>
+            <p className="mb-2 text-gray-400">milady Instamart</p>
+            <p className="mb-2 text-gray-400">milady Genie</p>
           </div>
 
           <div className="text-white mb-2 font-medium">

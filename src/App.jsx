@@ -7,6 +7,8 @@ import { Footer } from './components/Footer';
 // import { Scrollbar } from './components/Scrollbar';
 import HomePage from './pages/HomePage/HomePage';
 import LoginSignupForm from './components/LoginSignupForm';
+import Map from './components/Map';
+import { ScrollCard } from './components/ScrollCard';
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <CardProvider>
         <Header />
         <main className="bg-gray-100 dark:bg-gray-900 min-h-screen">
+         
           {/* Define your routes here */}
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -22,6 +25,8 @@ function App() {
             <Route path="/details/:id" element={<CardDetails />} />
           </Routes>
         </main>
+        {/* <ScrollCard/> */}
+        <Map/>
         <Footer />
       </CardProvider>
     </Router>

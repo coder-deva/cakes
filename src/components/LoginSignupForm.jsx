@@ -64,7 +64,7 @@ const LoginSignupForm = () => {
               </>
             ) : (
               <>
-                <p className="text-gray-600">Don't have an account?</p>
+                <p className="text-gray-600">Don&#39;t have an account?</p>
                 <button
                   onClick={() => setIsSignUp(true)}
                   className="text-purple-600 hover:underline focus:outline-none"
